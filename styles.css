@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+::selection {
+background: rgb(95, 38, 95);
+color: #fff;
+}
+
+body {
+min-height: 100vh;
+padding: 0 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgb(49, 143, 6);
+}
+
+.wrapper {
+width: 370px;
+background: #fff;
+padding: 30px;
+border-radius: 5px;
+box-shadow: 7px 7px 20px rgba(94, 5, 5, 0.01);
+}
+
+.wrapper header {
+font-size: 22px;
+font-weight: 600;
+text-align: center;
+}
+
+.wrapper form {
+margin: 40px 0 20px 0;
+}
+
+.wrapper form input,
+.wrapper form select,
+.wrapper form button {
+width: 100%;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+
+.wrapper form p {
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+.wrapper form input {
+height: 50px;
+padding: 0 15px;
+border: 1px solid #4d2828;
+font-size: 17px;
+}
+
+.wrapper form input:focus {
+border: 2px solid rgb(43, 32, 43);
+padding: 0 14px;
+}
+
+.wrapper form .drop-list {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.wrapper form .drop-list .select-box {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 115px;
+height: 45px;
+border: 1px solid #270909;
+border-radius: 5px;
+}
+
+.wrapper form .drop-list .select-box img {
+max-width: 21px;
+}
+
+.wrapper form .drop-list .select-box select {
+  width: auto;
+font-size: 16px;
+background: none;
+margin: 0 -5px 0 5px;
+}
+
+.wrapper form .drop-list .select-box select::-webkit-scrollbar {
+width: 8px;
+}
+
+.wrapper form .drop-list .select-box select::-webkit-scrollbar-track {
+background: #162e7a;
+}
+
+.wrapper form .drop-list .select-box select::-webkit-scrollbar-thumb {
+background: #4e0808;
+border-radius: 5px;
+border-right: 2px solid #942525;
+}
+
+.wrapper .drop-list .icon {
+font-size: 22px;
+margin-top: 30px;
+cursor: pointer;
+}
+
+.wrapper form .exchange_rate {
+font-size: 16px;
+margin: 20px 0 30px;
+}
+
+.wrapper form button {
+height: 52px;
+background: rgba(5, 87, 23, 0.178);
+color: #fff;
+font-size: 17px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.wrapper form button:hover {
+background: transparent;
+color: rgb(8, 4, 59);
+border: 2px solid rgb(85, 11, 85);
+}
+header {
+    font-family: cursive;
+    color: green;
+}
